@@ -185,6 +185,6 @@ if __name__ == "__main__":
     TOKEN = os.getenv('DISCORD_TOKEN')
     if not TOKEN:
         print("❌ خطأ: لم يتم العثور على DISCORD_TOKEN في ملف .env")
-        print("يرجى إنشاء ملف .env وإضافة: DISCORD_TOKEN=your_token_here")
+        print("يرجى إنشاء ملف .env وإضافة: DISCORD_TOKEN=MTQ1Mzc4NDY5MzQyOTUwMTk1Mg.GIEtj2.gVJluy0pstoxSyl0yWDqRSv3UPzR-2DYYzWVvA")
     else:
         bot.run(TOKEN)
